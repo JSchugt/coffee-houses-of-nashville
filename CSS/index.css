@@ -1,0 +1,15 @@
+
+.list{
+    /* Needed parent of area to flex to set up flex?     */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.shop{
+    /* 30% used to split screen into thirds and allow for padding */
+    flex-basis: 30%;  
+    border: 1px dashed blue;
+    padding: 1em;
+    margin: 0.5em;
+    flex-direction: row;
+}
